@@ -1,0 +1,1914 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20203.20.1110.1623                               -->
+<workbook source-build='2020.3.3 (20203.20.1110.1623)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='SolarSystemAndEarthquakes' inline='true' name='federated.02dxemh0eq8cfg1fpzuxo1oe0rum' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='SolarSystemAndEarthquakes' name='textscan.0fs6u911ryhmww19elzxk1la2pi5'>
+            <connection class='textscan' directory='C:/Users/juzij/Downloads/archive (10)' filename='SolarSystemAndEarthquakes.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0fs6u911ryhmww19elzxk1la2pi5' name='SolarSystemAndEarthquakes.csv' table='[SolarSystemAndEarthquakes#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='datetime' name='earthquake.time' ordinal='0' />
+            <column datatype='real' name='earthquake.latitude' ordinal='1' />
+            <column datatype='real' name='earthquake.longitude' ordinal='2' />
+            <column datatype='real' name='earthquake.mag' ordinal='3' />
+            <column datatype='string' name='earthquake.place' ordinal='4' />
+            <column datatype='string' name='MoonPhase.dynamic' ordinal='5' />
+            <column datatype='real' name='MoonPhase.value' ordinal='6' />
+            <column datatype='real' name='MoonPhase.total' ordinal='7' />
+            <column datatype='real' name='MoonPhase.percent' ordinal='8' />
+            <column datatype='real' name='MoonPhase.illumination' ordinal='9' />
+            <column datatype='datetime' name='day.sunrise' ordinal='10' />
+            <column datatype='datetime' name='day.zenith' ordinal='11' />
+            <column datatype='datetime' name='day.sunset' ordinal='12' />
+            <column datatype='datetime' name='day.duration' ordinal='13' />
+            <column datatype='datetime' name='night.duration' ordinal='14' />
+            <column datatype='string' name='twilight.civil' ordinal='15' />
+            <column datatype='string' name='twilight.nautical' ordinal='16' />
+            <column datatype='string' name='twilight.astronomical' ordinal='17' />
+            <column datatype='real' name='Sun.longitude' ordinal='18' />
+            <column datatype='real' name='Sun.latitude' ordinal='19' />
+            <column datatype='real' name='Sun.rectascension' ordinal='20' />
+            <column datatype='real' name='Sun.declination' ordinal='21' />
+            <column datatype='real' name='Sun.azimuth' ordinal='22' />
+            <column datatype='real' name='Sun.height' ordinal='23' />
+            <column datatype='real' name='Sun.speed' ordinal='24' />
+            <column datatype='real' name='Sun.house' ordinal='25' />
+            <column datatype='real' name='Sun.housenumber' ordinal='26' />
+            <column datatype='real' name='Moon.longitude' ordinal='27' />
+            <column datatype='real' name='Moon.latitude' ordinal='28' />
+            <column datatype='real' name='Moon.rectascension' ordinal='29' />
+            <column datatype='real' name='Moon.declination' ordinal='30' />
+            <column datatype='real' name='Moon.azimuth' ordinal='31' />
+            <column datatype='real' name='Moon.height' ordinal='32' />
+            <column datatype='real' name='Moon.speed' ordinal='33' />
+            <column datatype='real' name='Moon.house' ordinal='34' />
+            <column datatype='real' name='Moon.housenumber' ordinal='35' />
+            <column datatype='real' name='Mercury.longitude' ordinal='36' />
+            <column datatype='real' name='Mercury.latitude' ordinal='37' />
+            <column datatype='real' name='Mercury.rectascension' ordinal='38' />
+            <column datatype='real' name='Mercury.declination' ordinal='39' />
+            <column datatype='real' name='Mercury.azimuth' ordinal='40' />
+            <column datatype='real' name='Mercury.height' ordinal='41' />
+            <column datatype='real' name='Mercury.speed' ordinal='42' />
+            <column datatype='real' name='Mercury.house' ordinal='43' />
+            <column datatype='real' name='Mercury.housenumber' ordinal='44' />
+            <column datatype='real' name='Venus.longitude' ordinal='45' />
+            <column datatype='real' name='Venus.latitude' ordinal='46' />
+            <column datatype='real' name='Venus.rectascension' ordinal='47' />
+            <column datatype='real' name='Venus.declination' ordinal='48' />
+            <column datatype='real' name='Venus.azimuth' ordinal='49' />
+            <column datatype='real' name='Venus.height' ordinal='50' />
+            <column datatype='real' name='Venus.speed' ordinal='51' />
+            <column datatype='real' name='Venus.house' ordinal='52' />
+            <column datatype='real' name='Venus.housenumber' ordinal='53' />
+            <column datatype='real' name='Mars.longitude' ordinal='54' />
+            <column datatype='real' name='Mars.latitude' ordinal='55' />
+            <column datatype='real' name='Mars.rectascension' ordinal='56' />
+            <column datatype='real' name='Mars.declination' ordinal='57' />
+            <column datatype='real' name='Mars.azimuth' ordinal='58' />
+            <column datatype='real' name='Mars.height' ordinal='59' />
+            <column datatype='real' name='Mars.speed' ordinal='60' />
+            <column datatype='real' name='Mars.house' ordinal='61' />
+            <column datatype='real' name='Mars.housenumber' ordinal='62' />
+            <column datatype='real' name='Jupiter.longitude' ordinal='63' />
+            <column datatype='real' name='Jupiter.latitude' ordinal='64' />
+            <column datatype='real' name='Jupiter.rectascension' ordinal='65' />
+            <column datatype='real' name='Jupiter.declination' ordinal='66' />
+            <column datatype='real' name='Jupiter.azimuth' ordinal='67' />
+            <column datatype='real' name='Jupiter.height' ordinal='68' />
+            <column datatype='real' name='Jupiter.speed' ordinal='69' />
+            <column datatype='real' name='Jupiter.house' ordinal='70' />
+            <column datatype='real' name='Jupiter.housenumber' ordinal='71' />
+            <column datatype='real' name='Saturn.longitude' ordinal='72' />
+            <column datatype='real' name='Saturn.latitude' ordinal='73' />
+            <column datatype='real' name='Saturn.rectascension' ordinal='74' />
+            <column datatype='real' name='Saturn.declination' ordinal='75' />
+            <column datatype='real' name='Saturn.azimuth' ordinal='76' />
+            <column datatype='real' name='Saturn.height' ordinal='77' />
+            <column datatype='real' name='Saturn.speed' ordinal='78' />
+            <column datatype='real' name='Saturn.house' ordinal='79' />
+            <column datatype='real' name='Saturn.housenumber' ordinal='80' />
+            <column datatype='real' name='Uranus.longitude' ordinal='81' />
+            <column datatype='real' name='Uranus.latitude' ordinal='82' />
+            <column datatype='real' name='Uranus.rectascension' ordinal='83' />
+            <column datatype='real' name='Uranus.declination' ordinal='84' />
+            <column datatype='real' name='Uranus.azimuth' ordinal='85' />
+            <column datatype='real' name='Uranus.height' ordinal='86' />
+            <column datatype='real' name='Uranus.speed' ordinal='87' />
+            <column datatype='real' name='Uranus.house' ordinal='88' />
+            <column datatype='real' name='Uranus.housenumber' ordinal='89' />
+            <column datatype='real' name='Neptune.longitude' ordinal='90' />
+            <column datatype='real' name='Neptune.latitude' ordinal='91' />
+            <column datatype='real' name='Neptune.rectascension' ordinal='92' />
+            <column datatype='real' name='Neptune.declination' ordinal='93' />
+            <column datatype='real' name='Neptune.azimuth' ordinal='94' />
+            <column datatype='real' name='Neptune.height' ordinal='95' />
+            <column datatype='real' name='Neptune.speed' ordinal='96' />
+            <column datatype='real' name='Neptune.house' ordinal='97' />
+            <column datatype='real' name='Neptune.housenumber' ordinal='98' />
+            <column datatype='real' name='Pluto.longitude' ordinal='99' />
+            <column datatype='real' name='Pluto.latitude' ordinal='100' />
+            <column datatype='real' name='Pluto.rectascension' ordinal='101' />
+            <column datatype='real' name='Pluto.declination' ordinal='102' />
+            <column datatype='real' name='Pluto.azimuth' ordinal='103' />
+            <column datatype='real' name='Pluto.height' ordinal='104' />
+            <column datatype='real' name='Pluto.speed' ordinal='105' />
+            <column datatype='real' name='Pluto.house' ordinal='106' />
+            <column datatype='real' name='Pluto.housenumber' ordinal='107' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0fs6u911ryhmww19elzxk1la2pi5' name='SolarSystemAndEarthquakes.csv' table='[SolarSystemAndEarthquakes#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='datetime' name='earthquake.time' ordinal='0' />
+            <column datatype='real' name='earthquake.latitude' ordinal='1' />
+            <column datatype='real' name='earthquake.longitude' ordinal='2' />
+            <column datatype='real' name='earthquake.mag' ordinal='3' />
+            <column datatype='string' name='earthquake.place' ordinal='4' />
+            <column datatype='string' name='MoonPhase.dynamic' ordinal='5' />
+            <column datatype='real' name='MoonPhase.value' ordinal='6' />
+            <column datatype='real' name='MoonPhase.total' ordinal='7' />
+            <column datatype='real' name='MoonPhase.percent' ordinal='8' />
+            <column datatype='real' name='MoonPhase.illumination' ordinal='9' />
+            <column datatype='datetime' name='day.sunrise' ordinal='10' />
+            <column datatype='datetime' name='day.zenith' ordinal='11' />
+            <column datatype='datetime' name='day.sunset' ordinal='12' />
+            <column datatype='datetime' name='day.duration' ordinal='13' />
+            <column datatype='datetime' name='night.duration' ordinal='14' />
+            <column datatype='string' name='twilight.civil' ordinal='15' />
+            <column datatype='string' name='twilight.nautical' ordinal='16' />
+            <column datatype='string' name='twilight.astronomical' ordinal='17' />
+            <column datatype='real' name='Sun.longitude' ordinal='18' />
+            <column datatype='real' name='Sun.latitude' ordinal='19' />
+            <column datatype='real' name='Sun.rectascension' ordinal='20' />
+            <column datatype='real' name='Sun.declination' ordinal='21' />
+            <column datatype='real' name='Sun.azimuth' ordinal='22' />
+            <column datatype='real' name='Sun.height' ordinal='23' />
+            <column datatype='real' name='Sun.speed' ordinal='24' />
+            <column datatype='real' name='Sun.house' ordinal='25' />
+            <column datatype='real' name='Sun.housenumber' ordinal='26' />
+            <column datatype='real' name='Moon.longitude' ordinal='27' />
+            <column datatype='real' name='Moon.latitude' ordinal='28' />
+            <column datatype='real' name='Moon.rectascension' ordinal='29' />
+            <column datatype='real' name='Moon.declination' ordinal='30' />
+            <column datatype='real' name='Moon.azimuth' ordinal='31' />
+            <column datatype='real' name='Moon.height' ordinal='32' />
+            <column datatype='real' name='Moon.speed' ordinal='33' />
+            <column datatype='real' name='Moon.house' ordinal='34' />
+            <column datatype='real' name='Moon.housenumber' ordinal='35' />
+            <column datatype='real' name='Mercury.longitude' ordinal='36' />
+            <column datatype='real' name='Mercury.latitude' ordinal='37' />
+            <column datatype='real' name='Mercury.rectascension' ordinal='38' />
+            <column datatype='real' name='Mercury.declination' ordinal='39' />
+            <column datatype='real' name='Mercury.azimuth' ordinal='40' />
+            <column datatype='real' name='Mercury.height' ordinal='41' />
+            <column datatype='real' name='Mercury.speed' ordinal='42' />
+            <column datatype='real' name='Mercury.house' ordinal='43' />
+            <column datatype='real' name='Mercury.housenumber' ordinal='44' />
+            <column datatype='real' name='Venus.longitude' ordinal='45' />
+            <column datatype='real' name='Venus.latitude' ordinal='46' />
+            <column datatype='real' name='Venus.rectascension' ordinal='47' />
+            <column datatype='real' name='Venus.declination' ordinal='48' />
+            <column datatype='real' name='Venus.azimuth' ordinal='49' />
+            <column datatype='real' name='Venus.height' ordinal='50' />
+            <column datatype='real' name='Venus.speed' ordinal='51' />
+            <column datatype='real' name='Venus.house' ordinal='52' />
+            <column datatype='real' name='Venus.housenumber' ordinal='53' />
+            <column datatype='real' name='Mars.longitude' ordinal='54' />
+            <column datatype='real' name='Mars.latitude' ordinal='55' />
+            <column datatype='real' name='Mars.rectascension' ordinal='56' />
+            <column datatype='real' name='Mars.declination' ordinal='57' />
+            <column datatype='real' name='Mars.azimuth' ordinal='58' />
+            <column datatype='real' name='Mars.height' ordinal='59' />
+            <column datatype='real' name='Mars.speed' ordinal='60' />
+            <column datatype='real' name='Mars.house' ordinal='61' />
+            <column datatype='real' name='Mars.housenumber' ordinal='62' />
+            <column datatype='real' name='Jupiter.longitude' ordinal='63' />
+            <column datatype='real' name='Jupiter.latitude' ordinal='64' />
+            <column datatype='real' name='Jupiter.rectascension' ordinal='65' />
+            <column datatype='real' name='Jupiter.declination' ordinal='66' />
+            <column datatype='real' name='Jupiter.azimuth' ordinal='67' />
+            <column datatype='real' name='Jupiter.height' ordinal='68' />
+            <column datatype='real' name='Jupiter.speed' ordinal='69' />
+            <column datatype='real' name='Jupiter.house' ordinal='70' />
+            <column datatype='real' name='Jupiter.housenumber' ordinal='71' />
+            <column datatype='real' name='Saturn.longitude' ordinal='72' />
+            <column datatype='real' name='Saturn.latitude' ordinal='73' />
+            <column datatype='real' name='Saturn.rectascension' ordinal='74' />
+            <column datatype='real' name='Saturn.declination' ordinal='75' />
+            <column datatype='real' name='Saturn.azimuth' ordinal='76' />
+            <column datatype='real' name='Saturn.height' ordinal='77' />
+            <column datatype='real' name='Saturn.speed' ordinal='78' />
+            <column datatype='real' name='Saturn.house' ordinal='79' />
+            <column datatype='real' name='Saturn.housenumber' ordinal='80' />
+            <column datatype='real' name='Uranus.longitude' ordinal='81' />
+            <column datatype='real' name='Uranus.latitude' ordinal='82' />
+            <column datatype='real' name='Uranus.rectascension' ordinal='83' />
+            <column datatype='real' name='Uranus.declination' ordinal='84' />
+            <column datatype='real' name='Uranus.azimuth' ordinal='85' />
+            <column datatype='real' name='Uranus.height' ordinal='86' />
+            <column datatype='real' name='Uranus.speed' ordinal='87' />
+            <column datatype='real' name='Uranus.house' ordinal='88' />
+            <column datatype='real' name='Uranus.housenumber' ordinal='89' />
+            <column datatype='real' name='Neptune.longitude' ordinal='90' />
+            <column datatype='real' name='Neptune.latitude' ordinal='91' />
+            <column datatype='real' name='Neptune.rectascension' ordinal='92' />
+            <column datatype='real' name='Neptune.declination' ordinal='93' />
+            <column datatype='real' name='Neptune.azimuth' ordinal='94' />
+            <column datatype='real' name='Neptune.height' ordinal='95' />
+            <column datatype='real' name='Neptune.speed' ordinal='96' />
+            <column datatype='real' name='Neptune.house' ordinal='97' />
+            <column datatype='real' name='Neptune.housenumber' ordinal='98' />
+            <column datatype='real' name='Pluto.longitude' ordinal='99' />
+            <column datatype='real' name='Pluto.latitude' ordinal='100' />
+            <column datatype='real' name='Pluto.rectascension' ordinal='101' />
+            <column datatype='real' name='Pluto.declination' ordinal='102' />
+            <column datatype='real' name='Pluto.azimuth' ordinal='103' />
+            <column datatype='real' name='Pluto.height' ordinal='104' />
+            <column datatype='real' name='Pluto.speed' ordinal='105' />
+            <column datatype='real' name='Pluto.house' ordinal='106' />
+            <column datatype='real' name='Pluto.housenumber' ordinal='107' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;£&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>earthquake.time</remote-name>
+            <remote-type>135</remote-type>
+            <local-name>[earthquake.time]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>earthquake.time</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>earthquake.latitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[earthquake.latitude]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>earthquake.latitude</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>earthquake.longitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[earthquake.longitude]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>earthquake.longitude</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>earthquake.mag</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[earthquake.mag]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>earthquake.mag</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>earthquake.place</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[earthquake.place]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>earthquake.place</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MoonPhase.dynamic</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[MoonPhase.dynamic]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>MoonPhase.dynamic</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MoonPhase.value</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MoonPhase.value]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>MoonPhase.value</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MoonPhase.total</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MoonPhase.total]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>MoonPhase.total</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MoonPhase.percent</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MoonPhase.percent]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>MoonPhase.percent</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MoonPhase.illumination</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MoonPhase.illumination]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>MoonPhase.illumination</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day.sunrise</remote-name>
+            <remote-type>134</remote-type>
+            <local-name>[day.sunrise]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>day.sunrise</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Hour</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day.zenith</remote-name>
+            <remote-type>134</remote-type>
+            <local-name>[day.zenith]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>day.zenith</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Hour</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day.sunset</remote-name>
+            <remote-type>134</remote-type>
+            <local-name>[day.sunset]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>day.sunset</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Hour</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>day.duration</remote-name>
+            <remote-type>134</remote-type>
+            <local-name>[day.duration]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>day.duration</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Hour</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>night.duration</remote-name>
+            <remote-type>134</remote-type>
+            <local-name>[night.duration]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>night.duration</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>datetime</local-type>
+            <aggregation>Hour</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>twilight.civil</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[twilight.civil]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>twilight.civil</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>twilight.nautical</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[twilight.nautical]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>twilight.nautical</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>twilight.astronomical</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[twilight.astronomical]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>twilight.astronomical</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sun.longitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sun.longitude]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Sun.longitude</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sun.latitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sun.latitude]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Sun.latitude</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sun.rectascension</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sun.rectascension]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Sun.rectascension</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sun.declination</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sun.declination]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Sun.declination</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sun.azimuth</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sun.azimuth]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Sun.azimuth</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sun.height</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sun.height]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Sun.height</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sun.speed</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sun.speed]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Sun.speed</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sun.house</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sun.house]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Sun.house</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sun.housenumber</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sun.housenumber]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Sun.housenumber</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Moon.longitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Moon.longitude]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Moon.longitude</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Moon.latitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Moon.latitude]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Moon.latitude</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Moon.rectascension</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Moon.rectascension]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Moon.rectascension</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Moon.declination</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Moon.declination]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Moon.declination</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Moon.azimuth</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Moon.azimuth]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Moon.azimuth</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Moon.height</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Moon.height]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Moon.height</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Moon.speed</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Moon.speed]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Moon.speed</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Moon.house</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Moon.house]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Moon.house</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Moon.housenumber</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Moon.housenumber]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Moon.housenumber</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mercury.longitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Mercury.longitude]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Mercury.longitude</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mercury.latitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Mercury.latitude]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Mercury.latitude</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mercury.rectascension</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Mercury.rectascension]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Mercury.rectascension</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mercury.declination</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Mercury.declination]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Mercury.declination</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mercury.azimuth</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Mercury.azimuth]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Mercury.azimuth</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mercury.height</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Mercury.height]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Mercury.height</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mercury.speed</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Mercury.speed]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Mercury.speed</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mercury.house</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Mercury.house]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Mercury.house</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mercury.housenumber</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Mercury.housenumber]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Mercury.housenumber</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Venus.longitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Venus.longitude]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Venus.longitude</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Venus.latitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Venus.latitude]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Venus.latitude</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Venus.rectascension</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Venus.rectascension]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Venus.rectascension</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Venus.declination</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Venus.declination]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Venus.declination</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Venus.azimuth</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Venus.azimuth]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Venus.azimuth</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Venus.height</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Venus.height]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Venus.height</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Venus.speed</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Venus.speed]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Venus.speed</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Venus.house</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Venus.house]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Venus.house</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Venus.housenumber</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Venus.housenumber]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Venus.housenumber</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mars.longitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Mars.longitude]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Mars.longitude</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mars.latitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Mars.latitude]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Mars.latitude</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mars.rectascension</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Mars.rectascension]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Mars.rectascension</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mars.declination</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Mars.declination]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Mars.declination</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mars.azimuth</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Mars.azimuth]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Mars.azimuth</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mars.height</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Mars.height]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Mars.height</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mars.speed</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Mars.speed]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Mars.speed</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mars.house</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Mars.house]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Mars.house</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mars.housenumber</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Mars.housenumber]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Mars.housenumber</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Jupiter.longitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Jupiter.longitude]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Jupiter.longitude</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Jupiter.latitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Jupiter.latitude]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Jupiter.latitude</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Jupiter.rectascension</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Jupiter.rectascension]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Jupiter.rectascension</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Jupiter.declination</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Jupiter.declination]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Jupiter.declination</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Jupiter.azimuth</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Jupiter.azimuth]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Jupiter.azimuth</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Jupiter.height</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Jupiter.height]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Jupiter.height</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Jupiter.speed</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Jupiter.speed]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Jupiter.speed</remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Jupiter.house</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Jupiter.house]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Jupiter.house</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Jupiter.housenumber</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Jupiter.housenumber]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Jupiter.housenumber</remote-alias>
+            <ordinal>71</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Saturn.longitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Saturn.longitude]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Saturn.longitude</remote-alias>
+            <ordinal>72</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Saturn.latitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Saturn.latitude]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Saturn.latitude</remote-alias>
+            <ordinal>73</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Saturn.rectascension</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Saturn.rectascension]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Saturn.rectascension</remote-alias>
+            <ordinal>74</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Saturn.declination</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Saturn.declination]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Saturn.declination</remote-alias>
+            <ordinal>75</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Saturn.azimuth</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Saturn.azimuth]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Saturn.azimuth</remote-alias>
+            <ordinal>76</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Saturn.height</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Saturn.height]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Saturn.height</remote-alias>
+            <ordinal>77</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Saturn.speed</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Saturn.speed]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Saturn.speed</remote-alias>
+            <ordinal>78</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Saturn.house</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Saturn.house]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Saturn.house</remote-alias>
+            <ordinal>79</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Saturn.housenumber</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Saturn.housenumber]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Saturn.housenumber</remote-alias>
+            <ordinal>80</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Uranus.longitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Uranus.longitude]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Uranus.longitude</remote-alias>
+            <ordinal>81</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Uranus.latitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Uranus.latitude]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Uranus.latitude</remote-alias>
+            <ordinal>82</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Uranus.rectascension</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Uranus.rectascension]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Uranus.rectascension</remote-alias>
+            <ordinal>83</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Uranus.declination</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Uranus.declination]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Uranus.declination</remote-alias>
+            <ordinal>84</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Uranus.azimuth</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Uranus.azimuth]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Uranus.azimuth</remote-alias>
+            <ordinal>85</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Uranus.height</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Uranus.height]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Uranus.height</remote-alias>
+            <ordinal>86</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Uranus.speed</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Uranus.speed]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Uranus.speed</remote-alias>
+            <ordinal>87</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Uranus.house</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Uranus.house]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Uranus.house</remote-alias>
+            <ordinal>88</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Uranus.housenumber</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Uranus.housenumber]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Uranus.housenumber</remote-alias>
+            <ordinal>89</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Neptune.longitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Neptune.longitude]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Neptune.longitude</remote-alias>
+            <ordinal>90</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Neptune.latitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Neptune.latitude]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Neptune.latitude</remote-alias>
+            <ordinal>91</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Neptune.rectascension</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Neptune.rectascension]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Neptune.rectascension</remote-alias>
+            <ordinal>92</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Neptune.declination</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Neptune.declination]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Neptune.declination</remote-alias>
+            <ordinal>93</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Neptune.azimuth</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Neptune.azimuth]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Neptune.azimuth</remote-alias>
+            <ordinal>94</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Neptune.height</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Neptune.height]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Neptune.height</remote-alias>
+            <ordinal>95</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Neptune.speed</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Neptune.speed]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Neptune.speed</remote-alias>
+            <ordinal>96</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Neptune.house</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Neptune.house]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Neptune.house</remote-alias>
+            <ordinal>97</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Neptune.housenumber</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Neptune.housenumber]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Neptune.housenumber</remote-alias>
+            <ordinal>98</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pluto.longitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Pluto.longitude]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Pluto.longitude</remote-alias>
+            <ordinal>99</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pluto.latitude</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Pluto.latitude]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Pluto.latitude</remote-alias>
+            <ordinal>100</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pluto.rectascension</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Pluto.rectascension]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Pluto.rectascension</remote-alias>
+            <ordinal>101</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pluto.declination</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Pluto.declination]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Pluto.declination</remote-alias>
+            <ordinal>102</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pluto.azimuth</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Pluto.azimuth]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Pluto.azimuth</remote-alias>
+            <ordinal>103</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pluto.height</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Pluto.height]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Pluto.height</remote-alias>
+            <ordinal>104</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pluto.speed</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Pluto.speed]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Pluto.speed</remote-alias>
+            <ordinal>105</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pluto.house</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Pluto.house]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Pluto.house</remote-alias>
+            <ordinal>106</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Pluto.housenumber</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Pluto.housenumber]</local-name>
+            <parent-name>[SolarSystemAndEarthquakes.csv]</parent-name>
+            <remote-alias>Pluto.housenumber</remote-alias>
+            <ordinal>107</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column aggregation='Avg' datatype='real' name='[Jupiter.latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' datatype='real' name='[Jupiter.longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column aggregation='Avg' datatype='real' name='[Mars.latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' datatype='real' name='[Mars.longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column aggregation='Avg' datatype='real' name='[Mercury.latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' datatype='real' name='[Mercury.longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column aggregation='Avg' datatype='real' name='[Moon.latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' datatype='real' name='[Moon.longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column aggregation='Avg' datatype='real' name='[Neptune.latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' datatype='real' name='[Neptune.longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column aggregation='Avg' datatype='real' name='[Pluto.latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' datatype='real' name='[Pluto.longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column aggregation='Avg' datatype='real' name='[Saturn.latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' datatype='real' name='[Saturn.longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column aggregation='Avg' datatype='real' name='[Sun.latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' datatype='real' name='[Sun.longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column aggregation='Avg' datatype='real' name='[Uranus.latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' datatype='real' name='[Uranus.longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column aggregation='Avg' datatype='real' name='[Venus.latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' datatype='real' name='[Venus.longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='SolarSystemAndEarthquakes.csv' datatype='table' name='[__tableau_internal_object_id__].[SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582]' role='measure' type='quantitative' />
+      <column aggregation='Hour' caption='Day.Duration' datatype='datetime' name='[day.duration]' role='dimension' type='ordinal' />
+      <column aggregation='Hour' caption='Day.Sunrise' datatype='datetime' name='[day.sunrise]' role='dimension' type='ordinal' />
+      <column aggregation='Hour' caption='Day.Sunset' datatype='datetime' name='[day.sunset]' role='dimension' type='ordinal' />
+      <column aggregation='Hour' caption='Day.Zenith' datatype='datetime' name='[day.zenith]' role='dimension' type='ordinal' />
+      <column aggregation='Avg' caption='Earthquake.Latitude' datatype='real' name='[earthquake.latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' caption='Earthquake.Longitude' datatype='real' name='[earthquake.longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column caption='Earthquake.Mag' datatype='real' name='[earthquake.mag]' role='measure' type='quantitative' />
+      <column caption='Earthquake.Place' datatype='string' name='[earthquake.place]' role='dimension' type='nominal' />
+      <column caption='Earthquake.Time' datatype='datetime' name='[earthquake.time]' role='dimension' type='ordinal' />
+      <column caption='Night.Duration' datatype='datetime' name='[night.duration]' role='dimension' type='ordinal' />
+      <column caption='Twilight.Astronomical' datatype='string' name='[twilight.astronomical]' role='dimension' type='nominal' />
+      <column caption='Twilight.Civil' datatype='string' name='[twilight.civil]' role='dimension' type='nominal' />
+      <column caption='Twilight.Nautical' datatype='string' name='[twilight.nautical]' role='dimension' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United Kingdom&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='SolarSystemAndEarthquakes.csv' id='SolarSystemAndEarthquakes.csv_F4D4B9311F624850905FB6EE8271C582'>
+            <properties context=''>
+              <relation connection='textscan.0fs6u911ryhmww19elzxk1la2pi5' name='SolarSystemAndEarthquakes.csv' table='[SolarSystemAndEarthquakes#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+                  <column datatype='datetime' name='earthquake.time' ordinal='0' />
+                  <column datatype='real' name='earthquake.latitude' ordinal='1' />
+                  <column datatype='real' name='earthquake.longitude' ordinal='2' />
+                  <column datatype='real' name='earthquake.mag' ordinal='3' />
+                  <column datatype='string' name='earthquake.place' ordinal='4' />
+                  <column datatype='string' name='MoonPhase.dynamic' ordinal='5' />
+                  <column datatype='real' name='MoonPhase.value' ordinal='6' />
+                  <column datatype='real' name='MoonPhase.total' ordinal='7' />
+                  <column datatype='real' name='MoonPhase.percent' ordinal='8' />
+                  <column datatype='real' name='MoonPhase.illumination' ordinal='9' />
+                  <column datatype='datetime' name='day.sunrise' ordinal='10' />
+                  <column datatype='datetime' name='day.zenith' ordinal='11' />
+                  <column datatype='datetime' name='day.sunset' ordinal='12' />
+                  <column datatype='datetime' name='day.duration' ordinal='13' />
+                  <column datatype='datetime' name='night.duration' ordinal='14' />
+                  <column datatype='string' name='twilight.civil' ordinal='15' />
+                  <column datatype='string' name='twilight.nautical' ordinal='16' />
+                  <column datatype='string' name='twilight.astronomical' ordinal='17' />
+                  <column datatype='real' name='Sun.longitude' ordinal='18' />
+                  <column datatype='real' name='Sun.latitude' ordinal='19' />
+                  <column datatype='real' name='Sun.rectascension' ordinal='20' />
+                  <column datatype='real' name='Sun.declination' ordinal='21' />
+                  <column datatype='real' name='Sun.azimuth' ordinal='22' />
+                  <column datatype='real' name='Sun.height' ordinal='23' />
+                  <column datatype='real' name='Sun.speed' ordinal='24' />
+                  <column datatype='real' name='Sun.house' ordinal='25' />
+                  <column datatype='real' name='Sun.housenumber' ordinal='26' />
+                  <column datatype='real' name='Moon.longitude' ordinal='27' />
+                  <column datatype='real' name='Moon.latitude' ordinal='28' />
+                  <column datatype='real' name='Moon.rectascension' ordinal='29' />
+                  <column datatype='real' name='Moon.declination' ordinal='30' />
+                  <column datatype='real' name='Moon.azimuth' ordinal='31' />
+                  <column datatype='real' name='Moon.height' ordinal='32' />
+                  <column datatype='real' name='Moon.speed' ordinal='33' />
+                  <column datatype='real' name='Moon.house' ordinal='34' />
+                  <column datatype='real' name='Moon.housenumber' ordinal='35' />
+                  <column datatype='real' name='Mercury.longitude' ordinal='36' />
+                  <column datatype='real' name='Mercury.latitude' ordinal='37' />
+                  <column datatype='real' name='Mercury.rectascension' ordinal='38' />
+                  <column datatype='real' name='Mercury.declination' ordinal='39' />
+                  <column datatype='real' name='Mercury.azimuth' ordinal='40' />
+                  <column datatype='real' name='Mercury.height' ordinal='41' />
+                  <column datatype='real' name='Mercury.speed' ordinal='42' />
+                  <column datatype='real' name='Mercury.house' ordinal='43' />
+                  <column datatype='real' name='Mercury.housenumber' ordinal='44' />
+                  <column datatype='real' name='Venus.longitude' ordinal='45' />
+                  <column datatype='real' name='Venus.latitude' ordinal='46' />
+                  <column datatype='real' name='Venus.rectascension' ordinal='47' />
+                  <column datatype='real' name='Venus.declination' ordinal='48' />
+                  <column datatype='real' name='Venus.azimuth' ordinal='49' />
+                  <column datatype='real' name='Venus.height' ordinal='50' />
+                  <column datatype='real' name='Venus.speed' ordinal='51' />
+                  <column datatype='real' name='Venus.house' ordinal='52' />
+                  <column datatype='real' name='Venus.housenumber' ordinal='53' />
+                  <column datatype='real' name='Mars.longitude' ordinal='54' />
+                  <column datatype='real' name='Mars.latitude' ordinal='55' />
+                  <column datatype='real' name='Mars.rectascension' ordinal='56' />
+                  <column datatype='real' name='Mars.declination' ordinal='57' />
+                  <column datatype='real' name='Mars.azimuth' ordinal='58' />
+                  <column datatype='real' name='Mars.height' ordinal='59' />
+                  <column datatype='real' name='Mars.speed' ordinal='60' />
+                  <column datatype='real' name='Mars.house' ordinal='61' />
+                  <column datatype='real' name='Mars.housenumber' ordinal='62' />
+                  <column datatype='real' name='Jupiter.longitude' ordinal='63' />
+                  <column datatype='real' name='Jupiter.latitude' ordinal='64' />
+                  <column datatype='real' name='Jupiter.rectascension' ordinal='65' />
+                  <column datatype='real' name='Jupiter.declination' ordinal='66' />
+                  <column datatype='real' name='Jupiter.azimuth' ordinal='67' />
+                  <column datatype='real' name='Jupiter.height' ordinal='68' />
+                  <column datatype='real' name='Jupiter.speed' ordinal='69' />
+                  <column datatype='real' name='Jupiter.house' ordinal='70' />
+                  <column datatype='real' name='Jupiter.housenumber' ordinal='71' />
+                  <column datatype='real' name='Saturn.longitude' ordinal='72' />
+                  <column datatype='real' name='Saturn.latitude' ordinal='73' />
+                  <column datatype='real' name='Saturn.rectascension' ordinal='74' />
+                  <column datatype='real' name='Saturn.declination' ordinal='75' />
+                  <column datatype='real' name='Saturn.azimuth' ordinal='76' />
+                  <column datatype='real' name='Saturn.height' ordinal='77' />
+                  <column datatype='real' name='Saturn.speed' ordinal='78' />
+                  <column datatype='real' name='Saturn.house' ordinal='79' />
+                  <column datatype='real' name='Saturn.housenumber' ordinal='80' />
+                  <column datatype='real' name='Uranus.longitude' ordinal='81' />
+                  <column datatype='real' name='Uranus.latitude' ordinal='82' />
+                  <column datatype='real' name='Uranus.rectascension' ordinal='83' />
+                  <column datatype='real' name='Uranus.declination' ordinal='84' />
+                  <column datatype='real' name='Uranus.azimuth' ordinal='85' />
+                  <column datatype='real' name='Uranus.height' ordinal='86' />
+                  <column datatype='real' name='Uranus.speed' ordinal='87' />
+                  <column datatype='real' name='Uranus.house' ordinal='88' />
+                  <column datatype='real' name='Uranus.housenumber' ordinal='89' />
+                  <column datatype='real' name='Neptune.longitude' ordinal='90' />
+                  <column datatype='real' name='Neptune.latitude' ordinal='91' />
+                  <column datatype='real' name='Neptune.rectascension' ordinal='92' />
+                  <column datatype='real' name='Neptune.declination' ordinal='93' />
+                  <column datatype='real' name='Neptune.azimuth' ordinal='94' />
+                  <column datatype='real' name='Neptune.height' ordinal='95' />
+                  <column datatype='real' name='Neptune.speed' ordinal='96' />
+                  <column datatype='real' name='Neptune.house' ordinal='97' />
+                  <column datatype='real' name='Neptune.housenumber' ordinal='98' />
+                  <column datatype='real' name='Pluto.longitude' ordinal='99' />
+                  <column datatype='real' name='Pluto.latitude' ordinal='100' />
+                  <column datatype='real' name='Pluto.rectascension' ordinal='101' />
+                  <column datatype='real' name='Pluto.declination' ordinal='102' />
+                  <column datatype='real' name='Pluto.azimuth' ordinal='103' />
+                  <column datatype='real' name='Pluto.height' ordinal='104' />
+                  <column datatype='real' name='Pluto.speed' ordinal='105' />
+                  <column datatype='real' name='Pluto.house' ordinal='106' />
+                  <column datatype='real' name='Pluto.housenumber' ordinal='107' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontcolor='#000000b2' fontname='Inter,sans-serif' fontsize='17'>Earthquakes (magnitude 6.1+)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='SolarSystemAndEarthquakes' name='federated.02dxemh0eq8cfg1fpzuxo1oe0rum' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.02dxemh0eq8cfg1fpzuxo1oe0rum'>
+            <column-instance column='[earthquake.latitude]' derivation='Avg' name='[avg:earthquake.latitude:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[earthquake.longitude]' derivation='Avg' name='[avg:earthquake.longitude:qk]' pivot='key' type='quantitative' />
+            <column aggregation='Avg' caption='Earthquake.Latitude' datatype='real' name='[earthquake.latitude]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+            <column aggregation='Avg' caption='Earthquake.Longitude' datatype='real' name='[earthquake.longitude]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+            <column caption='Earthquake.Mag' datatype='real' name='[earthquake.mag]' role='measure' type='quantitative' />
+            <column-instance column='[earthquake.mag]' derivation='Sum' name='[sum:earthquake.mag:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='false' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.02dxemh0eq8cfg1fpzuxo1oe0rum].[avg:earthquake.longitude:qk]' field-type='quantitative' max='22010276.659857031' min='-19897679.460527282' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.02dxemh0eq8cfg1fpzuxo1oe0rum].[avg:earthquake.latitude:qk]' field-type='quantitative' max='21033652.731706239' min='-3803539.437034307' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.02dxemh0eq8cfg1fpzuxo1oe0rum].[sum:earthquake.mag:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.02dxemh0eq8cfg1fpzuxo1oe0rum].[avg:earthquake.latitude:qk]</rows>
+        <cols>[federated.02dxemh0eq8cfg1fpzuxo1oe0rum].[avg:earthquake.longitude:qk]</cols>
+      </table>
+      <simple-id uuid='{0B3163B0-4588-4C6F-A165-E68F4E61D184}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='SolarSystemAndEarthquakes' name='federated.02dxemh0eq8cfg1fpzuxo1oe0rum' />
+          </datasources>
+          <datasource-dependencies datasource='federated.02dxemh0eq8cfg1fpzuxo1oe0rum'>
+            <column datatype='real' name='[Jupiter.azimuth]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Jupiter.declination]' role='measure' type='quantitative' />
+            <column datatype='real' name='[Jupiter.height]' role='measure' type='quantitative' />
+            <column-instance column='[earthquake.mag]' derivation='Avg' name='[avg:earthquake.mag:qk]' pivot='key' type='quantitative' />
+            <column caption='Earthquake.Mag' datatype='real' name='[earthquake.mag]' role='measure' type='quantitative' />
+            <column-instance column='[Jupiter.azimuth]' derivation='Sum' name='[sum:Jupiter.azimuth:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Jupiter.declination]' derivation='Sum' name='[sum:Jupiter.declination:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Jupiter.height]' derivation='Sum' name='[sum:Jupiter.height:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='false' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.02dxemh0eq8cfg1fpzuxo1oe0rum].[avg:earthquake.mag:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.02dxemh0eq8cfg1fpzuxo1oe0rum].[sum:Jupiter.azimuth:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.02dxemh0eq8cfg1fpzuxo1oe0rum].[sum:Jupiter.declination:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+          <pane id='5' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.02dxemh0eq8cfg1fpzuxo1oe0rum].[sum:Jupiter.height:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.02dxemh0eq8cfg1fpzuxo1oe0rum].[avg:earthquake.mag:qk]</rows>
+        <cols>([federated.02dxemh0eq8cfg1fpzuxo1oe0rum].[sum:Jupiter.azimuth:qk] + ([federated.02dxemh0eq8cfg1fpzuxo1oe0rum].[sum:Jupiter.declination:qk] + [federated.02dxemh0eq8cfg1fpzuxo1oe0rum].[sum:Jupiter.height:qk]))</cols>
+      </table>
+      <simple-id uuid='{DB01C6A8-EFEC-457B-B1F9-5004053F30C0}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='44'>
+    <window class='worksheet' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.02dxemh0eq8cfg1fpzuxo1oe0rum].[sum:earthquake.mag:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{807D5A32-7A18-4CEE-B4D3-373C7B198FFF}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{637A5EEF-58C1-459A-93B8-55FC0035DAFC}' />
+    </window>
+  </windows>
+</workbook>

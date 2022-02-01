@@ -1,0 +1,2338 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20203.20.1110.1623                               -->
+<workbook source-build='2020.3.3 (20203.20.1110.1623)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <_.fcp.SetMembershipControl.true...SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='ElectricCarData_Clean (1)' inline='true' name='federated.1gqotpk1csuth70zroud00jqtm6v' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='ElectricCarData_Clean (1)' name='textscan.1kq04ru10lz3gl16t9cs81vezzr8'>
+            <connection class='textscan' directory='C:/Users/juzij/Downloads' filename='ElectricCarData_Clean (1).csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1kq04ru10lz3gl16t9cs81vezzr8' name='ElectricCarData_Clean (1).csv' table='[ElectricCarData_Clean (1)#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='string' name='Brand' ordinal='0' />
+            <column datatype='string' name='Model' ordinal='1' />
+            <column datatype='real' name='AccelSec' ordinal='2' />
+            <column datatype='integer' name='TopSpeed_KmH' ordinal='3' />
+            <column datatype='integer' name='Range_Km' ordinal='4' />
+            <column datatype='integer' name='Efficiency_WhKm' ordinal='5' />
+            <column datatype='integer' name='FastCharge_KmH' ordinal='6' />
+            <column datatype='string' name='RapidCharge' ordinal='7' />
+            <column datatype='string' name='PowerTrain' ordinal='8' />
+            <column datatype='string' name='PlugType' ordinal='9' />
+            <column datatype='string' name='BodyStyle' ordinal='10' />
+            <column datatype='string' name='Segment' ordinal='11' />
+            <column datatype='integer' name='Seats' ordinal='12' />
+            <column datatype='integer' name='PriceEuro' ordinal='13' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1kq04ru10lz3gl16t9cs81vezzr8' name='ElectricCarData_Clean (1).csv' table='[ElectricCarData_Clean (1)#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+            <column datatype='string' name='Brand' ordinal='0' />
+            <column datatype='string' name='Model' ordinal='1' />
+            <column datatype='real' name='AccelSec' ordinal='2' />
+            <column datatype='integer' name='TopSpeed_KmH' ordinal='3' />
+            <column datatype='integer' name='Range_Km' ordinal='4' />
+            <column datatype='integer' name='Efficiency_WhKm' ordinal='5' />
+            <column datatype='integer' name='FastCharge_KmH' ordinal='6' />
+            <column datatype='string' name='RapidCharge' ordinal='7' />
+            <column datatype='string' name='PowerTrain' ordinal='8' />
+            <column datatype='string' name='PlugType' ordinal='9' />
+            <column datatype='string' name='BodyStyle' ordinal='10' />
+            <column datatype='string' name='Segment' ordinal='11' />
+            <column datatype='integer' name='Seats' ordinal='12' />
+            <column datatype='integer' name='PriceEuro' ordinal='13' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[ElectricCarData_Clean (1).csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;£&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Brand</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Brand]</local-name>
+            <parent-name>[ElectricCarData_Clean (1).csv]</parent-name>
+            <remote-alias>Brand</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ElectricCarData_Clean (1).csv_E19702CB1B8C4C7794952EAD20EB04B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Model</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Model]</local-name>
+            <parent-name>[ElectricCarData_Clean (1).csv]</parent-name>
+            <remote-alias>Model</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ElectricCarData_Clean (1).csv_E19702CB1B8C4C7794952EAD20EB04B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AccelSec</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[AccelSec]</local-name>
+            <parent-name>[ElectricCarData_Clean (1).csv]</parent-name>
+            <remote-alias>AccelSec</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ElectricCarData_Clean (1).csv_E19702CB1B8C4C7794952EAD20EB04B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>TopSpeed_KmH</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[TopSpeed_KmH]</local-name>
+            <parent-name>[ElectricCarData_Clean (1).csv]</parent-name>
+            <remote-alias>TopSpeed_KmH</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ElectricCarData_Clean (1).csv_E19702CB1B8C4C7794952EAD20EB04B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Range_Km</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Range_Km]</local-name>
+            <parent-name>[ElectricCarData_Clean (1).csv]</parent-name>
+            <remote-alias>Range_Km</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ElectricCarData_Clean (1).csv_E19702CB1B8C4C7794952EAD20EB04B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Efficiency_WhKm</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Efficiency_WhKm]</local-name>
+            <parent-name>[ElectricCarData_Clean (1).csv]</parent-name>
+            <remote-alias>Efficiency_WhKm</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ElectricCarData_Clean (1).csv_E19702CB1B8C4C7794952EAD20EB04B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FastCharge_KmH</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[FastCharge_KmH]</local-name>
+            <parent-name>[ElectricCarData_Clean (1).csv]</parent-name>
+            <remote-alias>FastCharge_KmH</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ElectricCarData_Clean (1).csv_E19702CB1B8C4C7794952EAD20EB04B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RapidCharge</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[RapidCharge]</local-name>
+            <parent-name>[ElectricCarData_Clean (1).csv]</parent-name>
+            <remote-alias>RapidCharge</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ElectricCarData_Clean (1).csv_E19702CB1B8C4C7794952EAD20EB04B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PowerTrain</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PowerTrain]</local-name>
+            <parent-name>[ElectricCarData_Clean (1).csv]</parent-name>
+            <remote-alias>PowerTrain</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ElectricCarData_Clean (1).csv_E19702CB1B8C4C7794952EAD20EB04B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PlugType</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[PlugType]</local-name>
+            <parent-name>[ElectricCarData_Clean (1).csv]</parent-name>
+            <remote-alias>PlugType</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ElectricCarData_Clean (1).csv_E19702CB1B8C4C7794952EAD20EB04B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BodyStyle</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[BodyStyle]</local-name>
+            <parent-name>[ElectricCarData_Clean (1).csv]</parent-name>
+            <remote-alias>BodyStyle</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ElectricCarData_Clean (1).csv_E19702CB1B8C4C7794952EAD20EB04B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Segment</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Segment]</local-name>
+            <parent-name>[ElectricCarData_Clean (1).csv]</parent-name>
+            <remote-alias>Segment</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ElectricCarData_Clean (1).csv_E19702CB1B8C4C7794952EAD20EB04B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Seats</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Seats]</local-name>
+            <parent-name>[ElectricCarData_Clean (1).csv]</parent-name>
+            <remote-alias>Seats</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ElectricCarData_Clean (1).csv_E19702CB1B8C4C7794952EAD20EB04B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PriceEuro</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[PriceEuro]</local-name>
+            <parent-name>[ElectricCarData_Clean (1).csv]</parent-name>
+            <remote-alias>PriceEuro</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[ElectricCarData_Clean (1).csv_E19702CB1B8C4C7794952EAD20EB04B3]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='Accel Sec' datatype='real' name='[AccelSec]' role='measure' type='quantitative' />
+      <column caption='Body Style' datatype='string' name='[BodyStyle]' role='dimension' type='nominal' />
+      <column datatype='string' name='[Brand]' role='dimension' type='nominal' />
+      <column caption='Efficiency WhKm' datatype='integer' name='[Efficiency_WhKm]' role='measure' type='quantitative' />
+      <column caption='FastCharge KmH' datatype='integer' name='[FastCharge_KmH]' role='measure' type='quantitative' />
+      <column caption='Plug Type' datatype='string' name='[PlugType]' role='dimension' type='nominal' />
+      <column caption='Power Train' datatype='string' name='[PowerTrain]' role='dimension' type='nominal' />
+      <column caption='Price Euro' datatype='integer' name='[PriceEuro]' role='measure' type='quantitative' />
+      <column caption='Range Km' datatype='integer' name='[Range_Km]' role='measure' type='quantitative' />
+      <column caption='Rapid Charge' datatype='string' name='[RapidCharge]' role='dimension' type='nominal' />
+      <column datatype='integer' name='[Seats]' role='measure' type='quantitative' />
+      <column caption='TopSpeed KmH' datatype='integer' name='[TopSpeed_KmH]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='ElectricCarData_Clean (1).csv' datatype='table' name='[__tableau_internal_object_id__].[ElectricCarData_Clean (1).csv_E19702CB1B8C4C7794952EAD20EB04B3]' role='measure' type='quantitative' />
+      <column-instance column='[AccelSec]' derivation='Avg' name='[avg:AccelSec:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Efficiency_WhKm]' derivation='Avg' name='[avg:Efficiency_WhKm:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[PriceEuro]' derivation='Avg' name='[avg:PriceEuro:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Brand]' derivation='None' name='[none:Brand:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Seats]' derivation='None' name='[none:Seats:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[PriceEuro]' derivation='Sum' name='[sum:PriceEuro:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[:Measure Names]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:Efficiency_WhKm:qk]&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;[federated.1gqotpk1csuth70zroud00jqtm6v].[sum:PriceEuro:qk]&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:AccelSec:qk]&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:PriceEuro:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Brand:nk]' type='palette'>
+            <map to='#499894'>
+              <bucket>&quot;Ford&quot;</bucket>
+            </map>
+            <map to='#499894'>
+              <bucket>&quot;Smart&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Aiways&quot;</bucket>
+            </map>
+            <map to='#4e79a7'>
+              <bucket>&quot;Nissan&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Citroen&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Porsche&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Kia&quot;</bucket>
+            </map>
+            <map to='#79706e'>
+              <bucket>&quot;Volvo&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Honda&quot;</bucket>
+            </map>
+            <map to='#86bcb6'>
+              <bucket>&quot;Sono&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;CUPRA&quot;</bucket>
+            </map>
+            <map to='#8cd17d'>
+              <bucket>&quot;Renault&quot;</bucket>
+            </map>
+            <map to='#9d7660'>
+              <bucket>&quot;MG&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Audi&quot;</bucket>
+            </map>
+            <map to='#a0cbe8'>
+              <bucket>&quot;Opel&quot;</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>&quot;Mazda&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;DS&quot;</bucket>
+            </map>
+            <map to='#b6992d'>
+              <bucket>&quot;SEAT&quot;</bucket>
+            </map>
+            <map to='#bab0ac'>
+              <bucket>&quot;Lexus&quot;</bucket>
+            </map>
+            <map to='#d37295'>
+              <bucket>&quot;Lightyear&quot;</bucket>
+            </map>
+            <map to='#d4a6c8'>
+              <bucket>&quot;Mercedes&quot;</bucket>
+            </map>
+            <map to='#d7b5a6'>
+              <bucket>&quot;Mini&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Hyundai&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Tesla&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Fiat&quot;</bucket>
+            </map>
+            <map to='#f1ce63'>
+              <bucket>&quot;Skoda&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;BMW&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Peugeot&quot;</bucket>
+            </map>
+            <map to='#fabfd2'>
+              <bucket>&quot;Lucid&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Jaguar&quot;</bucket>
+            </map>
+            <map to='#ff9d9a'>
+              <bucket>&quot;Volkswagen&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Byton&quot;</bucket>
+            </map>
+            <map to='#ffbe7d'>
+              <bucket>&quot;Polestar&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Seats:ok]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>2</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>7</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>6</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>5</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>4</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United Kingdom&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='ElectricCarData_Clean (1).csv' id='ElectricCarData_Clean (1).csv_E19702CB1B8C4C7794952EAD20EB04B3'>
+            <properties context=''>
+              <relation connection='textscan.1kq04ru10lz3gl16t9cs81vezzr8' name='ElectricCarData_Clean (1).csv' table='[ElectricCarData_Clean (1)#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_GB' separator=','>
+                  <column datatype='string' name='Brand' ordinal='0' />
+                  <column datatype='string' name='Model' ordinal='1' />
+                  <column datatype='real' name='AccelSec' ordinal='2' />
+                  <column datatype='integer' name='TopSpeed_KmH' ordinal='3' />
+                  <column datatype='integer' name='Range_Km' ordinal='4' />
+                  <column datatype='integer' name='Efficiency_WhKm' ordinal='5' />
+                  <column datatype='integer' name='FastCharge_KmH' ordinal='6' />
+                  <column datatype='string' name='RapidCharge' ordinal='7' />
+                  <column datatype='string' name='PowerTrain' ordinal='8' />
+                  <column datatype='string' name='PlugType' ordinal='9' />
+                  <column datatype='string' name='BodyStyle' ordinal='10' />
+                  <column datatype='string' name='Segment' ordinal='11' />
+                  <column datatype='integer' name='Seats' ordinal='12' />
+                  <column datatype='integer' name='PriceEuro' ordinal='13' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Sheet 10'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ElectricCarData_Clean (1)' name='federated.1gqotpk1csuth70zroud00jqtm6v' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1gqotpk1csuth70zroud00jqtm6v'>
+            <column caption='Efficiency WhKm' datatype='integer' name='[Efficiency_WhKm]' role='measure' type='quantitative' />
+            <column caption='Price Euro' datatype='integer' name='[PriceEuro]' role='measure' type='quantitative' />
+            <column-instance column='[Efficiency_WhKm]' derivation='Avg' name='[avg:Efficiency_WhKm:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[PriceEuro]' derivation='Avg' name='[avg:PriceEuro:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='false' />
+        </view>
+        <style>
+          <style-rule element='table'>
+            <format attr='background-color' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:Efficiency_WhKm:qk]</rows>
+        <cols>[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:PriceEuro:qk]</cols>
+      </table>
+      <simple-id uuid='{1289DEBC-2594-4F17-AF46-EBE91A8563EE}' />
+    </worksheet>
+    <worksheet name='Sheet 11'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ElectricCarData_Clean (1)' name='federated.1gqotpk1csuth70zroud00jqtm6v' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1gqotpk1csuth70zroud00jqtm6v'>
+            <column caption='Price Euro' datatype='integer' name='[PriceEuro]' role='measure' type='quantitative' />
+            <column caption='Range Km' datatype='integer' name='[Range_Km]' role='measure' type='quantitative' />
+            <column-instance column='[PriceEuro]' derivation='Sum' name='[sum:PriceEuro:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Range_Km]' derivation='Sum' name='[sum:Range_Km:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='false' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+          </pane>
+        </panes>
+        <rows>[federated.1gqotpk1csuth70zroud00jqtm6v].[sum:Range_Km:qk]</rows>
+        <cols>[federated.1gqotpk1csuth70zroud00jqtm6v].[sum:PriceEuro:qk]</cols>
+      </table>
+      <simple-id uuid='{AE8F7060-6D47-403E-9E8F-BEBD4D9C6568}' />
+    </worksheet>
+    <worksheet name='Sheet 12'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ElectricCarData_Clean (1)' name='federated.1gqotpk1csuth70zroud00jqtm6v' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1gqotpk1csuth70zroud00jqtm6v'>
+            <column caption='Accel Sec' datatype='real' name='[AccelSec]' role='measure' type='quantitative' />
+            <column caption='Price Euro' datatype='integer' name='[PriceEuro]' role='measure' type='quantitative' />
+            <column-instance column='[AccelSec]' derivation='Sum' name='[sum:AccelSec:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[PriceEuro]' derivation='Sum' name='[sum:PriceEuro:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='false' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+          </pane>
+        </panes>
+        <rows>[federated.1gqotpk1csuth70zroud00jqtm6v].[sum:AccelSec:qk]</rows>
+        <cols>[federated.1gqotpk1csuth70zroud00jqtm6v].[sum:PriceEuro:qk]</cols>
+      </table>
+      <simple-id uuid='{A8D2261A-B97D-4A4A-98D7-18DEC2E97AE5}' />
+    </worksheet>
+    <worksheet name='Sheet 13'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ElectricCarData_Clean (1)' name='federated.1gqotpk1csuth70zroud00jqtm6v' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1gqotpk1csuth70zroud00jqtm6v'>
+            <column caption='FastCharge KmH' datatype='integer' name='[FastCharge_KmH]' role='measure' type='quantitative' />
+            <column caption='Price Euro' datatype='integer' name='[PriceEuro]' role='measure' type='quantitative' />
+            <column-instance column='[FastCharge_KmH]' derivation='Sum' name='[sum:FastCharge_KmH:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[PriceEuro]' derivation='Sum' name='[sum:PriceEuro:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='false' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+          </pane>
+        </panes>
+        <rows>[federated.1gqotpk1csuth70zroud00jqtm6v].[sum:FastCharge_KmH:qk]</rows>
+        <cols>[federated.1gqotpk1csuth70zroud00jqtm6v].[sum:PriceEuro:qk]</cols>
+      </table>
+      <simple-id uuid='{FEAAF15A-BF1E-4C3E-8C0A-C36AAACB0D31}' />
+    </worksheet>
+    <worksheet name='Sheet 14'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>5 Top Speed Brands </run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ElectricCarData_Clean (1)' name='federated.1gqotpk1csuth70zroud00jqtm6v' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1gqotpk1csuth70zroud00jqtm6v'>
+            <column datatype='string' name='[Brand]' role='dimension' type='nominal' />
+            <column caption='Price Euro' datatype='integer' name='[PriceEuro]' role='measure' type='quantitative' />
+            <column caption='TopSpeed KmH' datatype='integer' name='[TopSpeed_KmH]' role='measure' type='quantitative' />
+            <column-instance column='[PriceEuro]' derivation='Avg' name='[avg:PriceEuro:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[TopSpeed_KmH]' derivation='Max' name='[max:TopSpeed_KmH:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Brand]' derivation='None' name='[none:Brand:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1gqotpk1csuth70zroud00jqtm6v].[max:TopSpeed_KmH:qk]' included-values='in-range'>
+            <min>207</min>
+          </filter>
+          <slices>
+            <column>[federated.1gqotpk1csuth70zroud00jqtm6v].[max:TopSpeed_KmH:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='height' value='299' />
+            <format attr='font-size' data-class='subtotal' value='12' />
+            <format attr='font-size' data-class='total' value='36' />
+            <format attr='font-size' data-class='subtotal' scope='rows' value='22' />
+            <format attr='font-size' field='[federated.1gqotpk1csuth70zroud00jqtm6v].[none:Brand:nk]' value='16' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='font-size' data-class='subtotal' field='[federated.1gqotpk1csuth70zroud00jqtm6v].[none:Brand:nk]' value='15' />
+          </style-rule>
+          <style-rule element='annotation'>
+            <format attr='fill-color' id='annotation_1' value='#ffffff00' />
+            <format attr='fill-color' id='annotation_2' value='#fafafa00' />
+            <format attr='fill-color' id='annotation_3' value='#fafafa00' />
+            <format attr='fill-color' id='annotation_4' value='#fafafa00' />
+            <format attr='fill-color' id='annotation_5' value='#fafafa00' />
+            <format attr='line-pattern-only' id='annotation_2' value='solid' />
+            <format attr='stroke-color' id='annotation_2' value='#000000' />
+            <format attr='line-pattern-only' id='annotation_3' value='solid' />
+            <format attr='stroke-color' id='annotation_3' value='#000000' />
+            <format attr='line-pattern-only' id='annotation_1' value='solid' />
+            <format attr='stroke-color' id='annotation_1' value='#000000' />
+            <format attr='line-pattern-only' id='annotation_5' value='solid' />
+            <format attr='stroke-color' id='annotation_5' value='#000000' />
+            <format attr='stroke-color' id='annotation_4' value='#000000' />
+            <format attr='line-pattern-only' id='annotation_4' value='solid' />
+            <format attr='stroke-size' id='annotation_5' value='0' />
+            <format attr='line-visibility' id='annotation_5' value='off' />
+            <format attr='stroke-size' id='annotation_4' value='0' />
+            <format attr='line-visibility' id='annotation_4' value='off' />
+            <format attr='stroke-size' id='annotation_1' value='0' />
+            <format attr='line-visibility' id='annotation_1' value='off' />
+            <format attr='stroke-size' id='annotation_2' value='0' />
+            <format attr='line-visibility' id='annotation_2' value='off' />
+            <format attr='stroke-size' id='annotation_3' value='0' />
+            <format attr='line-visibility' id='annotation_3' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:PriceEuro:qk]' />
+              <size column='[federated.1gqotpk1csuth70zroud00jqtm6v].[max:TopSpeed_KmH:qk]' />
+              <text column='[federated.1gqotpk1csuth70zroud00jqtm6v].[none:Brand:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minheight' value='-1' />
+                <format attr='maxheight' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+        <mark-labels>
+          <mark-label id='0' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:PriceEuro:qk]</field>
+                  <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[max:TopSpeed_KmH:qk]</field>
+                  <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[none:Brand:nk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>80272.307692307688</value>
+                <value>410</value>
+                <value>&quot;Tesla&quot;</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='1' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:PriceEuro:qk]</field>
+                  <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[max:TopSpeed_KmH:qk]</field>
+                  <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[none:Brand:nk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>56440.0</value>
+                <value>210</value>
+                <value>&quot;Polestar&quot;</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='2' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:PriceEuro:qk]</field>
+                  <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[max:TopSpeed_KmH:qk]</field>
+                  <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[none:Brand:nk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>138265.79999999999</value>
+                <value>260</value>
+                <value>&quot;Porsche&quot;</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+        </mark-labels>
+        <annotations>
+          <annotation class='point' id='1' mark-position='1' pullback='12' text-width='108'>
+            <formatted-text>
+              <run fontcolor='#000000' fontsize='8'>TopSpeed KmH: </run>
+              <run bold='true' fontcolor='#000000' fontsize='8'><![CDATA[<[federated.1gqotpk1csuth70zroud00jqtm6v].[max:TopSpeed_KmH:qk]>]]></run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields />
+                      <y-fields />
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:PriceEuro:qk]</field>
+                      <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[max:TopSpeed_KmH:qk]</field>
+                      <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[none:Brand:nk]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>80272.307692307688</value>
+                    <value>410</value>
+                    <value>&quot;Tesla&quot;</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='-1' y='-49' />
+          </annotation>
+          <annotation class='point' id='2' mark-position='1' pullback='12' text-width='104'>
+            <formatted-text>
+              <run fontcolor='#000000' fontsize='8'>TopSpeed KmH: </run>
+              <run bold='true' fontcolor='#000000' fontsize='8'><![CDATA[<[federated.1gqotpk1csuth70zroud00jqtm6v].[max:TopSpeed_KmH:qk]>]]></run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields />
+                      <y-fields />
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:PriceEuro:qk]</field>
+                      <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[max:TopSpeed_KmH:qk]</field>
+                      <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[none:Brand:nk]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>80593.666666666672</value>
+                    <value>240</value>
+                    <value>&quot;Audi&quot;</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='0' y='-41' />
+          </annotation>
+          <annotation class='point' id='3' mark-position='1' pullback='12' text-width='118'>
+            <formatted-text>
+              <run fontcolor='#ffffff' fontsize='8'> TopSpeed KmH: </run>
+              <run bold='true' fontcolor='#ffffff' fontsize='8'><![CDATA[<[federated.1gqotpk1csuth70zroud00jqtm6v].[max:TopSpeed_KmH:qk]>]]></run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields />
+                      <y-fields />
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:PriceEuro:qk]</field>
+                      <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[max:TopSpeed_KmH:qk]</field>
+                      <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[none:Brand:nk]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>105000.0</value>
+                    <value>250</value>
+                    <value>&quot;Lucid&quot;</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='3' y='-39' />
+          </annotation>
+          <annotation class='point' id='4' mark-position='1' pullback='12' text-width='127'>
+            <formatted-text>
+              <run fontcolor='#000000' fontsize='8'>TopSpeed KmH: </run>
+              <run bold='true' fontcolor='#000000' fontsize='8'><![CDATA[<[federated.1gqotpk1csuth70zroud00jqtm6v].[max:TopSpeed_KmH:qk]>]]></run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields />
+                      <y-fields />
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:PriceEuro:qk]</field>
+                      <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[max:TopSpeed_KmH:qk]</field>
+                      <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[none:Brand:nk]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>56440.0</value>
+                    <value>210</value>
+                    <value>&quot;Polestar&quot;</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='0' y='-34' />
+          </annotation>
+          <annotation class='point' id='5' mark-position='1' pullback='12' text-width='110'>
+            <formatted-text>
+              <run fontcolor='#ffffff' fontsize='8'>TopSpeed KmH: </run>
+              <run bold='true' fontcolor='#ffffff' fontsize='8'><![CDATA[<[federated.1gqotpk1csuth70zroud00jqtm6v].[max:TopSpeed_KmH:qk]>]]></run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields />
+                      <y-fields />
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:PriceEuro:qk]</field>
+                      <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[max:TopSpeed_KmH:qk]</field>
+                      <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[none:Brand:nk]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>138265.79999999999</value>
+                    <value>260</value>
+                    <value>&quot;Porsche&quot;</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='1' y='-40' />
+          </annotation>
+        </annotations>
+      </table>
+      <simple-id uuid='{903CE0C3-48AB-4C6A-8F33-C2E56DA70FAA}' />
+    </worksheet>
+    <worksheet name='Sheet 15'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>Average Range by Brand</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ElectricCarData_Clean (1)' name='federated.1gqotpk1csuth70zroud00jqtm6v' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1gqotpk1csuth70zroud00jqtm6v'>
+            <column datatype='string' name='[Brand]' role='dimension' type='nominal' />
+            <column caption='Price Euro' datatype='integer' name='[PriceEuro]' role='measure' type='quantitative' />
+            <column caption='Range Km' datatype='integer' name='[Range_Km]' role='measure' type='quantitative' />
+            <column-instance column='[PriceEuro]' derivation='Avg' name='[avg:PriceEuro:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Range_Km]' derivation='Avg' name='[avg:Range_Km:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Brand]' derivation='None' name='[none:Brand:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:Range_Km:qk]' included-values='in-range'>
+            <min>359.0</min>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1gqotpk1csuth70zroud00jqtm6v].[none:Brand:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:Range_Km:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:Range_Km:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:PriceEuro:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1gqotpk1csuth70zroud00jqtm6v].[none:Brand:nk]</rows>
+        <cols>[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:Range_Km:qk]</cols>
+      </table>
+      <simple-id uuid='{20C54D88-8201-43E8-B0EC-A4B0605F608B}' />
+    </worksheet>
+    <worksheet name='Sheet 16'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>5 Top Most Efficient Brands</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ElectricCarData_Clean (1)' name='federated.1gqotpk1csuth70zroud00jqtm6v' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1gqotpk1csuth70zroud00jqtm6v'>
+            <column datatype='string' name='[Brand]' role='dimension' type='nominal' />
+            <column caption='Efficiency WhKm' datatype='integer' name='[Efficiency_WhKm]' role='measure' type='quantitative' />
+            <column caption='Price Euro' datatype='integer' name='[PriceEuro]' role='measure' type='quantitative' />
+            <column-instance column='[Efficiency_WhKm]' derivation='Avg' name='[avg:Efficiency_WhKm:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[PriceEuro]' derivation='Avg' name='[avg:PriceEuro:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Brand]' derivation='None' name='[none:Brand:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:Efficiency_WhKm:qk]' included-values='in-range'>
+            <min>208.09999999999999</min>
+          </filter>
+          <slices>
+            <column>[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:Efficiency_WhKm:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='font-size' field='[federated.1gqotpk1csuth70zroud00jqtm6v].[none:Brand:nk]' value='15' />
+            <format attr='color' data-class='subtotal' scope='rows' value='#ffffff' />
+            <format attr='color' data-class='total' value='#ffffff' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='font-size' data-class='total' field='[federated.1gqotpk1csuth70zroud00jqtm6v].[none:Brand:nk]' value='15' />
+            <format attr='font-size' data-class='subtotal' field='[federated.1gqotpk1csuth70zroud00jqtm6v].[none:Brand:nk]' value='15' />
+          </style-rule>
+          <style-rule element='annotation'>
+            <format attr='fill-color' id='annotation_0' value='#fafafa00' />
+            <format attr='stroke-size' id='annotation_0' value='1' />
+            <format attr='line-visibility' id='annotation_0' value='on' />
+            <format attr='line-pattern-only' id='annotation_0' value='dotted' />
+            <format attr='stroke-color' id='annotation_0' value='#0000008b' />
+            <format attr='line-visibility' id='annotation_1' value='on' />
+            <format attr='line-pattern-only' id='annotation_1' value='dotted' />
+            <format attr='stroke-color' id='annotation_1' value='#000000c9' />
+            <format attr='fill-color' id='annotation_1' value='#fafafa00' />
+            <format attr='line-visibility' id='annotation_2' value='on' />
+            <format attr='line-pattern-only' id='annotation_2' value='dotted' />
+            <format attr='stroke-color' id='annotation_2' value='#000000cb' />
+            <format attr='fill-color' id='annotation_2' value='#fafafa00' />
+            <format attr='line-visibility' id='annotation_3' value='on' />
+            <format attr='line-pattern-only' id='annotation_3' value='dotted' />
+            <format attr='stroke-color' id='annotation_3' value='#000000cb' />
+            <format attr='fill-color' id='annotation_3' value='#fafafa00' />
+            <format attr='line-visibility' id='annotation_4' value='on' />
+            <format attr='line-pattern-only' id='annotation_4' value='dotted' />
+            <format attr='stroke-color' id='annotation_4' value='#000000be' />
+            <format attr='fill-color' id='annotation_4' value='#fafafa00' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <size column='[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:Efficiency_WhKm:qk]' />
+              <text column='[federated.1gqotpk1csuth70zroud00jqtm6v].[none:Brand:nk]' />
+              <color column='[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:PriceEuro:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+        <mark-labels>
+          <mark-label id='0' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:Efficiency_WhKm:qk]</field>
+                  <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:PriceEuro:qk]</field>
+                  <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[none:Brand:nk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>220.0</value>
+                <value>61705.0</value>
+                <value>&quot;Mercedes&quot;</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+          <mark-label id='1' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:Efficiency_WhKm:qk]</field>
+                  <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:PriceEuro:qk]</field>
+                  <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[none:Brand:nk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>209.40000000000001</value>
+                <value>138265.79999999999</value>
+                <value>&quot;Porsche&quot;</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+        </mark-labels>
+        <annotations>
+          <annotation class='point' id='0' mark-position='1' pullback='12' text-width='146'>
+            <formatted-text>
+              <run fontcolor='#000000' fontsize='8'>Avg. Efficiency WhKm: </run>
+              <run bold='true' fontcolor='#000000' fontsize='8'><![CDATA[<[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:Efficiency_WhKm:qk]>]]></run>
+              <run>Æ&#10;</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields />
+                      <y-fields />
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:Efficiency_WhKm:qk]</field>
+                      <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:PriceEuro:qk]</field>
+                      <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[none:Brand:nk]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>209.40000000000001</value>
+                    <value>138265.79999999999</value>
+                    <value>&quot;Porsche&quot;</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='6' y='-96' />
+          </annotation>
+          <annotation class='point' id='1' mark-position='1' pullback='12' text-width='143'>
+            <formatted-text>
+              <run fontcolor='#000000' fontsize='8'>Avg. Efficiency WhKm: </run>
+              <run bold='true' fontcolor='#000000' fontsize='8'><![CDATA[<[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:Efficiency_WhKm:qk]>]]></run>
+              <run>Æ&#10;</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields />
+                      <y-fields />
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:Efficiency_WhKm:qk]</field>
+                      <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:PriceEuro:qk]</field>
+                      <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[none:Brand:nk]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>224.55555555555554</value>
+                    <value>80593.666666666672</value>
+                    <value>&quot;Audi&quot;</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='15' y='-109' />
+          </annotation>
+          <annotation class='point' id='2' mark-position='1' pullback='12' text-width='138'>
+            <formatted-text>
+              <run fontcolor='#000000' fontsize='8'>Avg. Efficiency WhKm: </run>
+              <run bold='true' fontcolor='#000000' fontsize='8'><![CDATA[<[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:Efficiency_WhKm:qk]>]]></run>
+              <run>Æ&#10;</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields />
+                      <y-fields />
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:Efficiency_WhKm:qk]</field>
+                      <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:PriceEuro:qk]</field>
+                      <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[none:Brand:nk]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>234.66666666666666</value>
+                    <value>59833.333333333336</value>
+                    <value>&quot;Byton&quot;</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='2' y='-99' />
+          </annotation>
+          <annotation class='point' id='3' mark-position='1' pullback='36.6197' text-width='180'>
+            <formatted-text>
+              <run fontcolor='#000000' fontsize='8'>Avg. Efficiency WhKm: </run>
+              <run bold='true' fontcolor='#000000' fontsize='8'><![CDATA[<[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:Efficiency_WhKm:qk]>]]></run>
+              <run>Æ&#10;</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields />
+                      <y-fields />
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:Efficiency_WhKm:qk]</field>
+                      <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:PriceEuro:qk]</field>
+                      <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[none:Brand:nk]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>232.0</value>
+                    <value>75351.0</value>
+                    <value>&quot;Jaguar&quot;</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='53' y='91' />
+          </annotation>
+          <annotation class='point' id='4' mark-position='1' pullback='21.0238' text-width='142'>
+            <formatted-text>
+              <run fontcolor='#000000' fontsize='8'>Avg. Efficiency WhKm: </run>
+              <run bold='true' fontcolor='#000000' fontsize='8'><![CDATA[<[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:Efficiency_WhKm:qk]>]]></run>
+              <run>Æ&#10;</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields />
+                      <y-fields />
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:Efficiency_WhKm:qk]</field>
+                      <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:PriceEuro:qk]</field>
+                      <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[none:Brand:nk]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>220.0</value>
+                    <value>61705.0</value>
+                    <value>&quot;Mercedes&quot;</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='20' y='106' />
+          </annotation>
+        </annotations>
+      </table>
+      <simple-id uuid='{AD32B12A-AF08-4542-B5D3-B94A97008759}' />
+    </worksheet>
+    <worksheet name='Sheet 17'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ElectricCarData_Clean (1)' name='federated.1gqotpk1csuth70zroud00jqtm6v' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1gqotpk1csuth70zroud00jqtm6v'>
+            <column caption='Body Style' datatype='string' name='[BodyStyle]' role='dimension' type='nominal' />
+            <column-instance column='[BodyStyle]' derivation='None' name='[none:BodyStyle:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <lod column='[federated.1gqotpk1csuth70zroud00jqtm6v].[none:BodyStyle:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.25' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{2C15A0BD-C043-459E-B866-E485A646D6D9}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>Price and Top Speed Correlation (R-squared: 0.687335)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ElectricCarData_Clean (1)' name='federated.1gqotpk1csuth70zroud00jqtm6v' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1gqotpk1csuth70zroud00jqtm6v'>
+            <column caption='Price Euro' datatype='integer' name='[PriceEuro]' role='measure' type='quantitative' />
+            <column caption='TopSpeed KmH' datatype='integer' name='[TopSpeed_KmH]' role='measure' type='quantitative' />
+            <column-instance column='[PriceEuro]' derivation='Sum' name='[sum:PriceEuro:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[TopSpeed_KmH]' derivation='Sum' name='[sum:TopSpeed_KmH:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='false' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+          </pane>
+        </panes>
+        <rows>[federated.1gqotpk1csuth70zroud00jqtm6v].[sum:TopSpeed_KmH:qk]</rows>
+        <cols>[federated.1gqotpk1csuth70zroud00jqtm6v].[sum:PriceEuro:qk]</cols>
+      </table>
+      <simple-id uuid='{501BC007-BE98-4614-BF64-F6911EB4D8F8}' />
+    </worksheet>
+    <worksheet name='Sheet 3'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>Average Price, Efficiency by Body Style</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ElectricCarData_Clean (1)' name='federated.1gqotpk1csuth70zroud00jqtm6v' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1gqotpk1csuth70zroud00jqtm6v'>
+            <column datatype='string' name='[Brand]' role='dimension' type='nominal' />
+            <column caption='Efficiency WhKm' datatype='integer' name='[Efficiency_WhKm]' role='measure' type='quantitative' />
+            <column-instance column='[Efficiency_WhKm]' derivation='Avg' name='[avg:Efficiency_WhKm:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Brand]' derivation='None' name='[none:Brand:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:Efficiency_WhKm:qk]' included-values='in-range'>
+            <min>162.0</min>
+            <max>261.33333333333331</max>
+          </filter>
+          <slices>
+            <column>[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:Efficiency_WhKm:qk]</column>
+          </slices>
+          <aggregation value='false' />
+        </view>
+        <style>
+          <style-rule element='mark'>
+            <encoding attr='size-bar' field='[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:Efficiency_WhKm:qk]' field-type='quantitative' max-size='1' min-size='0.005' type='centersize' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.1gqotpk1csuth70zroud00jqtm6v].[none:Brand:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:Efficiency_WhKm:qk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{65D4749F-29D1-4E0A-9884-CEB716C985CD}' />
+    </worksheet>
+    <worksheet name='Sheet 4'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>Average Fast Charge by Brand</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ElectricCarData_Clean (1)' name='federated.1gqotpk1csuth70zroud00jqtm6v' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1gqotpk1csuth70zroud00jqtm6v'>
+            <column datatype='string' name='[Brand]' role='dimension' type='nominal' />
+            <column caption='FastCharge KmH' datatype='integer' name='[FastCharge_KmH]' role='measure' type='quantitative' />
+            <column caption='Price Euro' datatype='integer' name='[PriceEuro]' role='measure' type='quantitative' />
+            <column-instance column='[FastCharge_KmH]' derivation='Avg' name='[avg:FastCharge_KmH:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[PriceEuro]' derivation='Avg' name='[avg:PriceEuro:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Brand]' derivation='None' name='[none:Brand:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:FastCharge_KmH:qk]' included-values='in-range'>
+            <min>431.0</min>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1gqotpk1csuth70zroud00jqtm6v].[none:Brand:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:FastCharge_KmH:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:FastCharge_KmH:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:PriceEuro:qk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.1gqotpk1csuth70zroud00jqtm6v].[none:Brand:nk]</rows>
+        <cols>[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:FastCharge_KmH:qk]</cols>
+      </table>
+      <simple-id uuid='{0784FBC1-9BDC-44ED-94C7-07862DBC1620}' />
+    </worksheet>
+    <worksheet name='Sheet 5'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>Average Price,  Range by Brand (Top 10)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ElectricCarData_Clean (1)' name='federated.1gqotpk1csuth70zroud00jqtm6v' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1gqotpk1csuth70zroud00jqtm6v'>
+            <column datatype='string' name='[Brand]' role='dimension' type='nominal' />
+            <column caption='Price Euro' datatype='integer' name='[PriceEuro]' role='measure' type='quantitative' />
+            <column caption='Range Km' datatype='integer' name='[Range_Km]' role='measure' type='quantitative' />
+            <column-instance column='[PriceEuro]' derivation='Avg' name='[avg:PriceEuro:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Range_Km]' derivation='Avg' name='[avg:Range_Km:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Brand]' derivation='None' name='[none:Brand:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:Range_Km:qk]' included-values='in-range'>
+            <min>362.0</min>
+          </filter>
+          <slices>
+            <column>[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:Range_Km:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:PriceEuro:qk]' />
+              <size column='[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:Range_Km:qk]' />
+              <text column='[federated.1gqotpk1csuth70zroud00jqtm6v].[none:Brand:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+        <mark-labels>
+          <mark-label id='0' label-state='on'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields />
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:PriceEuro:qk]</field>
+                  <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:Range_Km:qk]</field>
+                  <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[none:Brand:nk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>56440.0</value>
+                <value>400.0</value>
+                <value>&quot;Polestar&quot;</value>
+              </tuple>
+            </tuple-reference>
+          </mark-label>
+        </mark-labels>
+      </table>
+      <simple-id uuid='{5282D547-AE0A-46B8-88EA-3A6519F08E35}' />
+    </worksheet>
+    <worksheet name='Sheet 7'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>Top Speed Achieved by Brand (Top 10)</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ElectricCarData_Clean (1)' name='federated.1gqotpk1csuth70zroud00jqtm6v' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1gqotpk1csuth70zroud00jqtm6v'>
+            <column datatype='string' name='[Brand]' role='dimension' type='nominal' />
+            <column caption='TopSpeed KmH' datatype='integer' name='[TopSpeed_KmH]' role='measure' type='quantitative' />
+            <column-instance column='[TopSpeed_KmH]' derivation='Max' name='[max:TopSpeed_KmH:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Brand]' derivation='None' name='[none:Brand:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='quantitative' column='[federated.1gqotpk1csuth70zroud00jqtm6v].[max:TopSpeed_KmH:qk]' included-values='in-range'>
+            <min>190</min>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.1gqotpk1csuth70zroud00jqtm6v].[none:Brand:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.1gqotpk1csuth70zroud00jqtm6v].[max:TopSpeed_KmH:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.1gqotpk1csuth70zroud00jqtm6v].[max:TopSpeed_KmH:qk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1gqotpk1csuth70zroud00jqtm6v].[none:Brand:nk]</rows>
+        <cols>[federated.1gqotpk1csuth70zroud00jqtm6v].[max:TopSpeed_KmH:qk]</cols>
+      </table>
+      <simple-id uuid='{C8E5DA52-4F2A-44A6-A086-CB38E8077E3C}' />
+    </worksheet>
+    <worksheet name='Sheet 8'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Average Range by Brand</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ElectricCarData_Clean (1)' name='federated.1gqotpk1csuth70zroud00jqtm6v' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1gqotpk1csuth70zroud00jqtm6v'>
+            <column datatype='string' name='[Brand]' role='dimension' type='nominal' />
+            <column caption='Range Km' datatype='integer' name='[Range_Km]' role='measure' type='quantitative' />
+            <column-instance column='[Range_Km]' derivation='Avg' name='[avg:Range_Km:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Brand]' derivation='None' name='[none:Brand:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows>[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:Range_Km:qk]</rows>
+        <cols>[federated.1gqotpk1csuth70zroud00jqtm6v].[none:Brand:nk]</cols>
+      </table>
+      <simple-id uuid='{BB789E5B-DF9E-4769-9E52-9E4BE11CB978}' />
+    </worksheet>
+    <worksheet name='Sheet 9'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1'>Number of Seats</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='ElectricCarData_Clean (1)' name='federated.1gqotpk1csuth70zroud00jqtm6v' />
+          </datasources>
+          <datasource-dependencies datasource='federated.1gqotpk1csuth70zroud00jqtm6v'>
+            <_.fcp.ObjectModelTableType.false...column caption='ElectricCarData_Clean (1).csv' datatype='integer' name='[__tableau_internal_object_id__].[ElectricCarData_Clean (1).csv_E19702CB1B8C4C7794952EAD20EB04B3]' role='measure' type='quantitative' />
+            <column datatype='integer' name='[Seats]' role='measure' type='quantitative' />
+            <_.fcp.ObjectModelTableType.true...column caption='ElectricCarData_Clean (1).csv' datatype='table' name='[__tableau_internal_object_id__].[ElectricCarData_Clean (1).csv_E19702CB1B8C4C7794952EAD20EB04B3]' role='measure' type='quantitative' />
+            <column-instance column='[Seats]' derivation='None' name='[none:Seats:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Seats]' derivation='None' name='[none:Seats:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[__tableau_internal_object_id__].[ElectricCarData_Clean (1).csv_E19702CB1B8C4C7794952EAD20EB04B3]' derivation='Count' name='[pcto:cnt:ElectricCarData_Clean (1).csv_E19702CB1B8C4C7794952EAD20EB04B3:qk:2]' pivot='key' type='quantitative'>
+              <table-calc ordering-field='[federated.1gqotpk1csuth70zroud00jqtm6v].[none:Seats:qk]' ordering-type='Field' type='PctTotal' />
+            </column-instance>
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='annotation'>
+            <format attr='fill-color' id='annotation_3' value='#ffffff00' />
+            <format attr='fill-color' id='annotation_4' value='#00000000' />
+            <format attr='fill-color' id='annotation_5' value='#ffffff00' />
+            <format attr='fill-color' id='annotation_6' value='#ffffff00' />
+            <format attr='fill-color' id='annotation_2' value='#ffffff00' />
+            <format attr='line-visibility' id='annotation_4' value='on' />
+            <format attr='line-pattern-only' id='annotation_4' value='dashed' />
+            <format attr='stroke-color' id='annotation_4' value='#000000' />
+            <format attr='line-visibility' id='annotation_5' value='on' />
+            <format attr='line-pattern-only' id='annotation_5' value='dotted' />
+            <format attr='stroke-color' id='annotation_5' value='#000000' />
+            <format attr='line-visibility' id='annotation_6' value='on' />
+            <format attr='line-pattern-only' id='annotation_6' value='dotted' />
+            <format attr='stroke-color' id='annotation_6' value='#000000' />
+            <format attr='line-visibility' id='annotation_2' value='on' />
+            <format attr='line-pattern-only' id='annotation_2' value='dotted' />
+            <format attr='stroke-color' id='annotation_2' value='#000000' />
+            <format attr='line-visibility' id='annotation_3' value='on' />
+            <format attr='line-pattern-only' id='annotation_3' value='dotted' />
+            <format attr='stroke-color' id='annotation_3' value='#000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <encodings>
+              <color column='[federated.1gqotpk1csuth70zroud00jqtm6v].[none:Seats:ok]' />
+              <wedge-size column='[federated.1gqotpk1csuth70zroud00jqtm6v].[pcto:cnt:ElectricCarData_Clean (1).csv_E19702CB1B8C4C7794952EAD20EB04B3:qk:2]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+        <annotations>
+          <annotation class='point' id='2' mark-position='1' pullback='0' text-width='112'>
+            <formatted-text>
+              <run fontcolor='#787878'>Seats: </run>
+              <run bold='true'><![CDATA[<[federated.1gqotpk1csuth70zroud00jqtm6v].[none:Seats:ok]>]]></run>
+              <run>Æ&#10;</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields />
+                      <y-fields />
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[none:Seats:ok]</field>
+                      <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[pcto:cnt:ElectricCarData_Clean (1).csv_E19702CB1B8C4C7794952EAD20EB04B3:qk:2]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>5</value>
+                    <value>0.68932038834951459</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='68' y='35' />
+          </annotation>
+          <annotation class='point' id='3' mark-position='1' pullback='0' text-width='104'>
+            <formatted-text>
+              <run fontcolor='#787878'>Seats: </run>
+              <run bold='true'><![CDATA[<[federated.1gqotpk1csuth70zroud00jqtm6v].[none:Seats:ok]>]]></run>
+              <run>Æ&#10;</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields />
+                      <y-fields />
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[none:Seats:ok]</field>
+                      <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[pcto:cnt:ElectricCarData_Clean (1).csv_E19702CB1B8C4C7794952EAD20EB04B3:qk:2]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>6</value>
+                    <value>0.029126213592233011</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='-73' y='-3' />
+          </annotation>
+          <annotation class='point' id='4' mark-position='1' pullback='1' text-width='104'>
+            <formatted-text>
+              <run fontcolor='#787878'>Seats: </run>
+              <run bold='true'><![CDATA[<[federated.1gqotpk1csuth70zroud00jqtm6v].[none:Seats:ok]>]]></run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields />
+                      <y-fields />
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[none:Seats:ok]</field>
+                      <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[pcto:cnt:ElectricCarData_Clean (1).csv_E19702CB1B8C4C7794952EAD20EB04B3:qk:2]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>7</value>
+                    <value>0.058252427184466021</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='-8' y='-31' />
+          </annotation>
+          <annotation class='point' id='5' mark-position='1' pullback='0' text-width='104'>
+            <formatted-text>
+              <run fontcolor='#787878'>Seats: </run>
+              <run bold='true'><![CDATA[<[federated.1gqotpk1csuth70zroud00jqtm6v].[none:Seats:ok]>]]></run>
+              <run>Æ&#10;</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields />
+                      <y-fields />
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[none:Seats:ok]</field>
+                      <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[pcto:cnt:ElectricCarData_Clean (1).csv_E19702CB1B8C4C7794952EAD20EB04B3:qk:2]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>2</value>
+                    <value>0.019417475728155338</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='66' y='-26' />
+          </annotation>
+          <annotation class='point' id='6' mark-position='1' pullback='9.21954' text-width='104'>
+            <formatted-text>
+              <run fontcolor='#787878'>Seats: </run>
+              <run bold='true'><![CDATA[<[federated.1gqotpk1csuth70zroud00jqtm6v].[none:Seats:ok]>]]></run>
+              <run>Æ&#10;</run>
+            </formatted-text>
+            <point>
+              <visual-coordinate class='mark'>
+                <tuple-reference>
+                  <tuple-descriptor>
+                    <pane-descriptor>
+                      <x-fields />
+                      <y-fields />
+                    </pane-descriptor>
+                    <columns>
+                      <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[none:Seats:ok]</field>
+                      <field>[federated.1gqotpk1csuth70zroud00jqtm6v].[pcto:cnt:ElectricCarData_Clean (1).csv_E19702CB1B8C4C7794952EAD20EB04B3:qk:2]</field>
+                    </columns>
+                  </tuple-descriptor>
+                  <tuple>
+                    <value>4</value>
+                    <value>0.20388349514563106</value>
+                  </tuple>
+                </tuple-reference>
+              </visual-coordinate>
+            </point>
+            <body x='75' y='18' />
+          </annotation>
+        </annotations>
+      </table>
+      <simple-id uuid='{0B23DEEE-6BB2-46AB-9B4E-BFD96959CD85}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Dashboard 1'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#757676' fontsize='20'>Electric Vehicle Market</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style />
+      <size maxheight='700' maxwidth='1500' minheight='700' minwidth='1500' sizing-mode='fixed' />
+      <zones>
+        <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='10' w='100000' x='0' y='0'>
+          <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='97714' id='13' param='vert' w='98934' x='533' y='1143'>
+            <zone _.fcp.SetMembershipControl.false...type='title' _.fcp.SetMembershipControl.true...type-v2='title' h='9000' id='14' w='98934' x='533' y='1143'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='52571' id='6' name='Sheet 4' w='37000' x='63133' y='2286' />
+        <zone h='48429' id='15' name='Sheet 2' w='30400' x='1067' y='1857' />
+        <zone h='50143' id='17' name='Sheet 15' w='37200' x='62867' y='55000' />
+        <zone h='52000' id='18' name='Sheet 14' w='31133' x='1733' y='49857' />
+        <zone h='67714' id='20' name='Sheet 16' w='30400' x='33133' y='15714' />
+        <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='10857' id='21' name='Sheet 16' pane-specification-id='0' param='[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:PriceEuro:qk]' w='8533' x='43867' y='84429' />
+        <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='14286' id='22' name='Sheet 14' pane-specification-id='0' param='[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:PriceEuro:qk]' w='8533' x='0' y='86714' />
+        <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='12286' id='23' name='Sheet 15' pane-specification-id='0' param='[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:PriceEuro:qk]' w='8733' x='90267' y='78857' />
+        <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='11857' id='24' name='Sheet 4' pane-specification-id='0' param='[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:PriceEuro:qk]' w='8867' x='90733' y='28571' />
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <layout-options>
+            <title>
+              <formatted-text>
+                <run bold='true' fontalignment='1' fontcolor='#e15759' fontsize='20'>Electric Vehicle Market</run>
+              </formatted-text>
+            </title>
+          </layout-options>
+          <size maxheight='1800' minheight='1800' sizing-mode='vscroll' />
+          <zones>
+            <zone _.fcp.SetMembershipControl.false...type='layout-basic' _.fcp.SetMembershipControl.true...type-v2='layout-basic' h='100000' id='28' w='100000' x='0' y='0'>
+              <zone _.fcp.SetMembershipControl.false...type='layout-flow' _.fcp.SetMembershipControl.true...type-v2='layout-flow' h='97714' id='27' param='vert' w='98934' x='533' y='1143'>
+                <zone _.fcp.SetMembershipControl.false...type='title' _.fcp.SetMembershipControl.true...type-v2='title' h='9000' id='14' w='98934' x='533' y='1143'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='48429' id='15' is-fixed='true' name='Sheet 2' w='30400' x='1067' y='1857'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='52571' id='6' is-fixed='true' name='Sheet 4' w='37000' x='63133' y='2286'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='11857' id='24' name='Sheet 4' pane-specification-id='0' param='[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:PriceEuro:qk]' w='8867' x='90733' y='28571'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='67714' id='20' is-fixed='true' name='Sheet 16' w='30400' x='32933' y='18429'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='10857' id='21' name='Sheet 16' pane-specification-id='0' param='[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:PriceEuro:qk]' w='8533' x='43867' y='84429'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='52000' id='18' is-fixed='true' name='Sheet 14' w='31133' x='1400' y='52286'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='14286' id='22' name='Sheet 14' pane-specification-id='0' param='[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:PriceEuro:qk]' w='8533' x='0' y='86714'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='50143' id='17' is-fixed='true' name='Sheet 15' w='37200' x='62867' y='55000'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone _.fcp.SetMembershipControl.false...type='color' _.fcp.SetMembershipControl.true...type-v2='color' h='12286' id='23' name='Sheet 15' pane-specification-id='0' param='[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:PriceEuro:qk]' w='8733' x='90267' y='78857'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{771CDA8E-A744-4915-BDB5-6AF5B9D2515B}' />
+    </dashboard>
+  </dashboards>
+  <windows saved-dpi-scale-factor='1.5' source-height='44'>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{E9C82ECB-3231-4D85-B899-92A3D1A50B35}' />
+    </window>
+    <window class='worksheet' name='Sheet 3'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{39A441C5-EA21-4867-AE31-3E5548B87D24}' />
+    </window>
+    <window class='worksheet' name='Sheet 4'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:PriceEuro:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{4EB814DB-9E4C-4839-B987-963706EAD3A9}' />
+    </window>
+    <window class='worksheet' name='Sheet 5'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:Range_Km:qk]' show-domain='false' show-null-ctrls='false' type='filter' />
+            <card pane-specification-id='0' param='[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:PriceEuro:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{41CF538C-6B56-4B27-B3F2-E33355FF47E7}' />
+    </window>
+    <window class='worksheet' name='Sheet 7'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.1gqotpk1csuth70zroud00jqtm6v].[none:Brand:nk]' type='highlighter' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{89704D0E-5D36-473A-868E-52E55E16DB1B}' />
+    </window>
+    <window class='worksheet' name='Sheet 8'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{0A03054B-BA8C-4087-8CA7-8EBCBF3D5FB8}' />
+    </window>
+    <window class='dashboard' maximized='true' name='Dashboard 1'>
+      <viewpoints>
+        <viewpoint name='Sheet 14' />
+        <viewpoint name='Sheet 15' />
+        <viewpoint name='Sheet 16' />
+        <viewpoint name='Sheet 2'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sheet 4'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='14' />
+      <device-preview visible='true' />
+      <simple-id uuid='{963866E9-8E89-43EF-8200-DA7C93BC86B4}' />
+    </window>
+    <window class='worksheet' name='Sheet 9'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1gqotpk1csuth70zroud00jqtm6v].[none:Seats:ok]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{8D19BAAE-5799-423E-BF84-E6F00B9D0A27}' />
+    </window>
+    <window class='worksheet' name='Sheet 10'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{01E9D562-A7E3-46E3-801B-8553DD1D0742}' />
+    </window>
+    <window class='worksheet' name='Sheet 11'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{646BAFF2-774B-4573-AF04-1471995FAC92}' />
+    </window>
+    <window class='worksheet' name='Sheet 12'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{4AE9C41A-27FA-4F50-AB26-67381E17CCEE}' />
+    </window>
+    <window class='worksheet' name='Sheet 13'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{BEB4A574-816B-46C5-BFF9-FD8AE97E665F}' />
+    </window>
+    <window class='worksheet' name='Sheet 14'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:PriceEuro:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{53AC4238-8798-4129-8E62-6B15B5036025}' />
+    </window>
+    <window class='worksheet' name='Sheet 15'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:PriceEuro:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{40298484-24E8-47E1-A459-1DCC8E085771}' />
+    </window>
+    <window class='worksheet' name='Sheet 16'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.1gqotpk1csuth70zroud00jqtm6v].[avg:PriceEuro:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{D412A9B2-1B08-48C1-8A37-4884325ABB75}' />
+    </window>
+    <window class='worksheet' name='Sheet 17'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{F3E1E502-1E99-4D67-9617-9F02F202C01A}' />
+    </window>
+  </windows>
+</workbook>
