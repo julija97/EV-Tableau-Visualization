@@ -8,7 +8,8 @@ You can find the Tableau Workbook within the "Workbook" directory in this repo.
 
 ## Tableau Dashboard on Electric Vehicle Market Analysis
 
-<img width="960" alt="EVs" src="https://user-images.githubusercontent.com/76480153/151998343-079e1a0e-7b10-431a-ba4e-48eed2e47334.png">
+<img width="960" alt="electric" src="https://user-images.githubusercontent.com/76480153/152023887-ca38e29e-a7bf-43db-a50b-e9b9131a0701.png">
+
 
 ## Updates:
 Currently working on developing a vehicle price prediction model.
